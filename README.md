@@ -33,7 +33,7 @@ A quick overview of all available configuration packages, pick what fits the pro
 <div align="center">
 
 |                                        **Package**                                         |  **Type**  |      **Category**      |
-| :----------------------------------------------------------------------------------------: | :--------: | :--------------------: |
+| ------------------------------------------------------------------------------------------ | :--------: | :--------------------: |
 |  [`@igorskyflyer/biome-config`](https://www.npmjs.com/package/@igorskyflyer/biome-config)  | **config** | **linter / formatter** |
 |      [`@igorskyflyer/tsconfig`](https://www.npmjs.com/package/@igorskyflyer/tsconfig)      | **config** |     **TypeScript**     |
 |  [`@igorskyflyer/editorconfig`](https://www.npmjs.com/package/@igorskyflyer/editorconfig)  |  **CLI**   |       **editor**       |
