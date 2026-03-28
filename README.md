@@ -32,13 +32,13 @@ A quick overview of all available configuration packages, pick what fits the pro
 
 <div align="center">
 
-| **Package**                                                                                |  **Type**  |      **Category**      |
-| ------------------------------------------------------------------------------------------ | :--------: | :--------------------: |
-| [`@igorskyflyer/biome-config`](https://www.npmjs.com/package/@igorskyflyer/biome-config)   | **config** | **linter / formatter** |
-| [`@igorskyflyer/tsconfig`](https://www.npmjs.com/package/@igorskyflyer/tsconfig)           | **config** |     **TypeScript**     |
-| [`@igorskyflyer/editorconfig`](https://www.npmjs.com/package/@igorskyflyer/editorconfig)   |  **CLI**   |       **editor**       |
-| [`@igorskyflyer/oxfmt-config`](https://www.npmjs.com/package/@igorskyflyer/oxfmt-config)   | **config** |     **formatter**      |
-| [`@igorskyflyer/oxlint-config`](https://www.npmjs.com/package/@igorskyflyer/oxlint-config) | **config** |       **linter**       |
+| **Package**                                                                                |    **Config**    |  **Type**  |      **Category**      |
+| ------------------------------------------------------------------------------------------ | :--------------: | :--------: | :--------------------: |
+| [`@igorskyflyer/biome-config`](https://www.npmjs.com/package/@igorskyflyer/biome-config)   |   `biome.json`   | **config** | **linter / formatter** |
+| [`@igorskyflyer/tsconfig`](https://www.npmjs.com/package/@igorskyflyer/tsconfig)           | `tsconfig.json`  | **config** |     **TypeScript**     |
+| [`@igorskyflyer/editorconfig`](https://www.npmjs.com/package/@igorskyflyer/editorconfig)   | `.editorconfig`  |  **CLI**   |       **editor**       |
+| [`@igorskyflyer/oxfmt-config`](https://www.npmjs.com/package/@igorskyflyer/oxfmt-config)   | `.oxfmtrc.json`  | **config** |     **formatter**      |
+| [`@igorskyflyer/oxlint-config`](https://www.npmjs.com/package/@igorskyflyer/oxlint-config) | `.oxlintrc.json` | **config** |       **linter**       |
 
 <div>
   <em>Table 1. packages list</em>
