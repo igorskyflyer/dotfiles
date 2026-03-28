@@ -6,7 +6,9 @@
 <blockquote align="center">  Lint • Format • TypeScript • Zero-Config DX  </blockquote>
 
 <h4 align="center">
-  🦐 A curated index of all published <a href="https://github.com/igorskyflyer"><strong>@igorskyflyer</strong></a> configuration packages; crafted for a seamless <code>DX</code>. 🦤
+  🦐 A curated index of all published <a href="https://www.npmjs.com/~igorskyflyer"><strong>@igorskyflyer</strong></a> configuration packages;
+  <br>
+  crafted for a seamless <code>DX</code>. 🦤
 </h4>
 
 <br>
