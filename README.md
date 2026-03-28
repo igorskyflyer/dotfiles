@@ -32,12 +32,12 @@ A quick overview of all available configuration packages, pick what fits the pro
 
 <div align="center">
 
-|                                        **Package**                                         |  **Type**  |      **Category**      |
+| **Package**                                                                                |  **Type**  |      **Category**      |
 | ------------------------------------------------------------------------------------------ | :--------: | :--------------------: |
-|  [`@igorskyflyer/biome-config`](https://www.npmjs.com/package/@igorskyflyer/biome-config)  | **config** | **linter / formatter** |
-|      [`@igorskyflyer/tsconfig`](https://www.npmjs.com/package/@igorskyflyer/tsconfig)      | **config** |     **TypeScript**     |
-|  [`@igorskyflyer/editorconfig`](https://www.npmjs.com/package/@igorskyflyer/editorconfig)  |  **CLI**   |       **editor**       |
-|  [`@igorskyflyer/oxfmt-config`](https://www.npmjs.com/package/@igorskyflyer/oxfmt-config)  | **config** |     **formatter**      |
+| [`@igorskyflyer/biome-config`](https://www.npmjs.com/package/@igorskyflyer/biome-config)   | **config** | **linter / formatter** |
+| [`@igorskyflyer/tsconfig`](https://www.npmjs.com/package/@igorskyflyer/tsconfig)           | **config** |     **TypeScript**     |
+| [`@igorskyflyer/editorconfig`](https://www.npmjs.com/package/@igorskyflyer/editorconfig)   |  **CLI**   |       **editor**       |
+| [`@igorskyflyer/oxfmt-config`](https://www.npmjs.com/package/@igorskyflyer/oxfmt-config)   | **config** |     **formatter**      |
 | [`@igorskyflyer/oxlint-config`](https://www.npmjs.com/package/@igorskyflyer/oxlint-config) | **config** |       **linter**       |
 
 <div>
@@ -65,7 +65,7 @@ A quick overview of all available configuration packages, pick what fits the pro
 - 🧹 Import organization powered by Biome's built-in `organizeImports`
 - 🔍 Supports adjacent overloads and explicit length checks
 
-<br>
+---
 
 ### [`@igorskyflyer/tsconfig`](https://www.npmjs.com/package/@igorskyflyer/tsconfig)
 
@@ -79,7 +79,7 @@ A quick overview of all available configuration packages, pick what fits the pro
 - 🗺️ `Source maps` and `declaration` maps included
 - ⚡ `Zero-config` setup - extend and go
 
-<br>
+---
 
 ### [`@igorskyflyer/editorconfig`](https://www.npmjs.com/package/@igorskyflyer/editorconfig)
 
@@ -91,7 +91,7 @@ A quick overview of all available configuration packages, pick what fits the pro
 - ✅ Clear success and error feedback for every outcome
 - 🛡️ Zero dependencies - pure `Node.js` built-ins only
 
-<br>
+---
 
 ### [`@igorskyflyer/oxfmt-config`](https://www.npmjs.com/package/@igorskyflyer/oxfmt-config)
 
@@ -104,7 +104,7 @@ A quick overview of all available configuration packages, pick what fits the pro
 - ⚡ Powered by `oxfmt` - `30x` faster than `Prettier`
 - 🛡️ Zero dependencies - `oxfmt` is a peer dependency only
 
-<br>
+---
 
 ### [`@igorskyflyer/oxlint-config`](https://www.npmjs.com/package/@igorskyflyer/oxlint-config)
 
@@ -122,8 +122,6 @@ A quick overview of all available configuration packages, pick what fits the pro
 <br>
 
 ## Usage
-
-<br>
 
 Each package is independently installable.  
 Pick, extend and go.
@@ -206,8 +204,6 @@ npm i -D @igorskyflyer/oxlint-config
 <br>
 
 ## Motivation
-
-<br>
 
 Every project starts the same way - hours configuring linters, formatters, TypeScript and editor settings before writing a single line of actual code. These packages exist to eliminate that overhead entirely.
 
