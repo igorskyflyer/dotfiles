@@ -28,7 +28,8 @@
 
 ## Packages
 
-A quick overview of all available configuration packages, pick what fits the project's stack.
+A quick overview of all available configuration packages.  
+Pick what fits the project's stack.
 
 <div align="center">
 
