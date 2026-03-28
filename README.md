@@ -32,16 +32,17 @@ A quick overview of all available configuration packages, pick what fits the pro
 
 <div align="center">
 
-| **Package**                                                                                |    **Config**    |  **Type**  |      **Category**      |
-| ------------------------------------------------------------------------------------------ | :--------------: | :--------: | :--------------------: |
-| [`@igorskyflyer/biome-config`](https://www.npmjs.com/package/@igorskyflyer/biome-config)   |   `biome.json`   | **config** | **linter / formatter** |
-| [`@igorskyflyer/tsconfig`](https://www.npmjs.com/package/@igorskyflyer/tsconfig)           | `tsconfig.json`  | **config** |     **TypeScript**     |
-| [`@igorskyflyer/editorconfig`](https://www.npmjs.com/package/@igorskyflyer/editorconfig)   | `.editorconfig`  |  **CLI**   |       **editor**       |
-| [`@igorskyflyer/oxfmt-config`](https://www.npmjs.com/package/@igorskyflyer/oxfmt-config)   | `.oxfmtrc.json`  | **config** |     **formatter**      |
-| [`@igorskyflyer/oxlint-config`](https://www.npmjs.com/package/@igorskyflyer/oxlint-config) | `.oxlintrc.json` | **config** |       **linter**       |
+| **Package**                                                                                    |      **Config**       |  **Type**  |      **Category**      |
+| ---------------------------------------------------------------------------------------------- | :-------------------: | :--------: | :--------------------: |
+| [`@igorskyflyer/biome-config`](https://www.npmjs.com/package/@igorskyflyer/biome-config)       |     `biome.json`      | **config** | **linter / formatter** |
+| [`@igorskyflyer/editorconfig`](https://www.npmjs.com/package/@igorskyflyer/editorconfig)       |    `.editorconfig`    |  **CLI**   |       **editor**       |
+| [`@igorskyflyer/prettier-config`](https://www.npmjs.com/package/@igorskyflyer/prettier-config) | `.prettier.config.js` | **config** |     **formatter**      |
+| [`@igorskyflyer/tsconfig`](https://www.npmjs.com/package/@igorskyflyer/tsconfig)               |    `tsconfig.json`    | **config** |     **TypeScript**     |
+| [`@igorskyflyer/oxfmt-config`](https://www.npmjs.com/package/@igorskyflyer/oxfmt-config)       |    `.oxfmtrc.json`    | **config** |     **formatter**      |
+| [`@igorskyflyer/oxlint-config`](https://www.npmjs.com/package/@igorskyflyer/oxlint-config)     |   `.oxlintrc.json`    | **config** |       **linter**       |
 
 <div>
-  <em>Table 1. packages list</em>
+  <em>Table 1. packages list (A-Z)</em>
 </div>
 
 </div>
