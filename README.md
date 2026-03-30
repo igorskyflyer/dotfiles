@@ -77,7 +77,6 @@ npm i -D @igorskyflyer/biome-config
 After installation reference it in the project's `biome.json` config file.
 
 ```json
-// biome.json
 {
   "extends": ["@igorskyflyer/biome-config"]
 }
@@ -135,7 +134,6 @@ npm i -D @igorskyflyer/oxfmt-config
 After installation reference it in the project's `oxfmtrc.json` config file.
 
 ```json
-// .oxfmtrc.json
 {
   "extends": "@igorskyflyer/oxfmt-config"
 }
@@ -171,7 +169,6 @@ npm i -D @igorskyflyer/oxlint-config
 After installation, reference it in the project's `.oxlintrc.json` config file.
 
 ```json
-// .oxlintrc.json
 {
   "extends": ["@igorskyflyer/oxlint-config"]
 }
@@ -259,7 +256,6 @@ After installation, reference it in the project's `tsconfig.json` config file.
 ##### Node
 
 ```json
-// tsconfig.json - Node
 {
   "extends": "@igorskyflyer/tsconfig"
 }
@@ -270,7 +266,6 @@ After installation, reference it in the project's `tsconfig.json` config file.
 ##### Browser
 
 ```json
-// tsconfig.json - browser
 {
   "extends": "@igorskyflyer/tsconfig/browser"
 }
