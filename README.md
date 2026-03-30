@@ -30,14 +30,14 @@ Each package is independently installable. Pick, extend and go.
 
 <div align="center">
 
-| **Package**                                                     |      **Config**       | **Type** |    **Category**    |
-| --------------------------------------------------------------- | :-------------------: | :------: | :----------------: |
-| [`@igorskyflyer/biome-config`](#igorskyflyerbiome-config)       |     `biome.json`      |  config  | linter / formatter |
-| [`@igorskyflyer/editorconfig`](#igorskyflyereditorconfig)       |    `.editorconfig`    |   CLI    |       editor       |
-| [`@igorskyflyer/oxfmt-config`](#igorskyflyeroxfmt-config)       |    `.oxfmtrc.json`    |  config  |     formatter      |
-| [`@igorskyflyer/oxlint-config`](#igorskyflyeroxlint-config)     |   `.oxlintrc.json`    |  config  |       linter       |
-| [`@igorskyflyer/prettier-config`](#igorskyflyerprettier-config) | `prettier.config.mjs` |  config  |     formatter      |
-| [`@igorskyflyer/tsconfig`](#igorskyflyertsconfig)               |    `tsconfig.json`    |  config  |     TypeScript     |
+| **Package**                                         |      **Config**       | **Type** |    **Category**    |
+| --------------------------------------------------- | :-------------------: | :------: | :----------------: |
+| [`@igorskyflyer/biome-config`](#biome-config)       |     `biome.json`      |  config  | linter / formatter |
+| [`@igorskyflyer/editorconfig`](#editorconfig)       |    `.editorconfig`    |   CLI    |       editor       |
+| [`@igorskyflyer/oxfmt-config`](#oxfmt-config)       |    `.oxfmtrc.json`    |  config  |     formatter      |
+| [`@igorskyflyer/oxlint-config`](#oxlint-config)     |   `.oxlintrc.json`    |  config  |       linter       |
+| [`@igorskyflyer/prettier-config`](#prettier-config) | `prettier.config.mjs` |  config  |     formatter      |
+| [`@igorskyflyer/tsconfig`](#tsconfig)               |    `tsconfig.json`    |  config  |     TypeScript     |
 
 <div>
   <em>Table 1. packages list (A-Z)</em>
@@ -47,7 +47,9 @@ Each package is independently installable. Pick, extend and go.
 
 <br>
 
-### [`@igorskyflyer/biome-config`](https://www.npmjs.com/package/@igorskyflyer/biome-config)
+<a id="biome-config"></a>
+
+### [`@igorskyflyer/biome-config`](https://www.npmjs.com/package/@igorskyflyer/biome-config) · [**GitHub**](https://github.com/igorskyflyer/npm-biome-config)
 
 > Strict, opinionated Biome configuration for modern JavaScript and TypeScript projects.
 
@@ -58,7 +60,7 @@ Each package is independently installable. Pick, extend and go.
 - ⚡ Performance-focused rules - flags barrel files, re-export-all and top-level regex
 - 📁 Enforced filenaming conventions with strict casing and `ASCII` requirements
 - 🛡️ Suspicious behavior checks - console usage, overload signatures and error messaging
-- ✒️ No trailing commas or unnecessary semicolons for cleaner diffs
+- ✒️ Keep trailing commas and remove unnecessary semicolons for cleaner diffs
 - 🧹 Import organization powered by Biome's built-in `organizeImports`
 - 🔍 Supports adjacent overloads and explicit length checks
 
@@ -113,7 +115,9 @@ Override any rule locally as needed:
 
 ---
 
-### [`@igorskyflyer/editorconfig`](https://www.npmjs.com/package/@igorskyflyer/editorconfig)
+<a id="editorconfig"></a>
+
+### [`@igorskyflyer/editorconfig`](https://www.npmjs.com/package/@igorskyflyer/editorconfig) · [**GitHub**](https://github.com/igorskyflyer/npm-editorconfig)
 
 > CLI tool that instantly provisions a `.editorconfig` into any project.
 
@@ -169,7 +173,9 @@ editorconfig
 
 ---
 
-### [`@igorskyflyer/oxfmt-config`](https://www.npmjs.com/package/@igorskyflyer/oxfmt-config)
+<a id="oxfmt-config"></a>
+
+### [`@igorskyflyer/oxfmt-config`](https://www.npmjs.com/package/@igorskyflyer/oxfmt-config) · [**GitHub**](https://github.com/igorskyflyer/npm-oxfmt-config)
 
 > Pixel-perfect formatting config powered by `oxfmt`, covering every modern file type.
 
@@ -183,6 +189,18 @@ editorconfig
 #### Usage
 
 Install it by executing any of the following, depending on the preferred package manager:
+
+```bash
+bun add -D @igorskyflyer/oxfmt-config
+```
+
+```bash
+pnpm add -D @igorskyflyer/oxfmt-config
+```
+
+```bash
+yarn add -D @igorskyflyer/oxfmt-config
+```
 
 ```bash
 npm i -D @igorskyflyer/oxfmt-config
@@ -213,7 +231,9 @@ Override any rule locally as needed:
 
 ---
 
-### [`@igorskyflyer/oxlint-config`](https://www.npmjs.com/package/@igorskyflyer/oxlint-config)
+<a id="oxlint-config"></a>
+
+### [`@igorskyflyer/oxlint-config`](https://www.npmjs.com/package/@igorskyflyer/oxlint-config) · [**GitHub**](https://github.com/igorskyflyer/npm-oxlint-config)
 
 > Strict oxlint ruleset covering TypeScript, imports, promises, unicorn and test plugins.
 
@@ -273,9 +293,11 @@ Override any rule locally as needed:
 
 ---
 
-### [`@igorskyflyer/prettier-config`](https://www.npmjs.com/package/@igorskyflyer/prettier-config)
+<a id="prettier-config"></a>
 
-> Prettier config for JS/TS projects. Single quotes, no semis, LF, no trailing commas.
+### [`@igorskyflyer/prettier-config`](https://www.npmjs.com/package/@igorskyflyer/prettier-config) · [**GitHub**](https://github.com/igorskyflyer/npm-prettier-config)
+
+> Prettier config for JS/TS projects. Single quotes, no semis, LF, trailing commas.
 
 - ⚡ Zero-config setup - extend and go
 - 🔤 Single quotes for JS/TS, double quotes for JSX
@@ -336,7 +358,9 @@ export default {
 
 ---
 
-### [`@igorskyflyer/tsconfig`](https://www.npmjs.com/package/@igorskyflyer/tsconfig)
+<a id="tsconfig"></a>
+
+### [`@igorskyflyer/tsconfig`](https://www.npmjs.com/package/@igorskyflyer/tsconfig) · [**GitHub**](https://github.com/igorskyflyer/npm-tsconfig)
 
 > Strict TypeScript configuration with separate Node and browser presets.
 
@@ -353,7 +377,7 @@ export default {
 Install it by executing any of the following, depending on the preferred package manager:
 
 ```bash
-bun add -d @igorskyflyer/tsconfig
+bun add -D @igorskyflyer/tsconfig
 ```
 
 ```bash
