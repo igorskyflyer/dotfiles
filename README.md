@@ -64,7 +64,19 @@ Each package is independently installable. Pick, extend and go.
 
 #### Usage
 
-Install via:
+Install it by executing any of the following, depending on the preferred package manager:
+
+```bash
+bun add -D @igorskyflyer/biome-config
+```
+
+```bash
+pnpm add -D @igorskyflyer/biome-config
+```
+
+```bash
+yarn add -D @igorskyflyer/biome-config
+```
 
 ```bash
 npm i -D @igorskyflyer/biome-config
@@ -72,11 +84,30 @@ npm i -D @igorskyflyer/biome-config
 
 <br>
 
-After installation reference it in the project's `biome.json` config file.
+After installation reference it in the project's **biome.json** config file.
+
+`biome.json`
 
 ```json
 {
   "extends": ["@igorskyflyer/biome-config"]
+}
+```
+
+Override any rule locally as needed:
+
+`biome.json`
+
+```json
+{
+  "extends": ["@igorskyflyer/biome-config"],
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "noConsole": "error"
+      }
+    }
+  }
 }
 ```
 
@@ -100,7 +131,41 @@ In a terminal, run:
 npx @igorskyflyer/editorconfig
 ```
 
+```bash
+bunx @igorskyflyer/editorconfig
+```
+
+```bash
+pnpm dlx @igorskyflyer/editorconfig
+```
+
+```bash
+yarn dlx @igorskyflyer/editorconfig
+```
+
 and follow the instructions.
+
+<br>
+
+Or install globally:
+
+```bash
+bun add -g @igorskyflyer/editorconfig
+```
+
+```bash
+pnpm add -g @igorskyflyer/editorconfig
+```
+
+```bash
+npm i -g @igorskyflyer/editorconfig
+```
+
+Then run:
+
+```bash
+editorconfig
+```
 
 ---
 
@@ -110,14 +175,14 @@ and follow the instructions.
 
 - ✨ Pixel-perfect, consistent formatting across all modern file types
 - 📦 Handles `JS`, `TS`, `JSX`, `TSX`, `JSON`, `HTML`, `CSS`, `Vue` and more
-- 🔍 Intelligent import sorting - builtin first, then internal, then external
-- 🎯 Opinionated defaults - extend and go, zero bikeshedding
+- 🔍 Intelligent `import sorting` - builtin first, then internal, then external
+- 🎯 `Opinionated` defaults - extend and go, zero bikeshedding
 - ⚡ Powered by `oxfmt` - `30x` faster than `Prettier`
-- 🛡️ Zero dependencies - `oxfmt` is a peer dependency only
+- 🛡️ `Zero dependencies` - `oxfmt` is a peer dependency only
 
 #### Usage
 
-Install via:
+Install it by executing any of the following, depending on the preferred package manager:
 
 ```bash
 npm i -D @igorskyflyer/oxfmt-config
@@ -125,11 +190,24 @@ npm i -D @igorskyflyer/oxfmt-config
 
 <br>
 
-After installation reference it in the project's `oxfmtrc.json` config file.
+After installation reference it in the project's **.oxfmtrc.json** config file.
+
+`.oxfmtrc.json`
+
+```json
+{ "extends": "@igorskyflyer/oxfmt-config" }
+```
+
+Override any rule locally as needed:
+
+`.oxfmtrc.json`
 
 ```json
 {
-  "extends": "@igorskyflyer/oxfmt-config"
+  "extends": "@igorskyflyer/oxfmt-config",
+  "printWidth": 100,
+  "endOfLine": "crlf",
+  "arrowParens": "avoid"
 }
 ```
 
@@ -139,7 +217,7 @@ After installation reference it in the project's `oxfmtrc.json` config file.
 
 > Strict oxlint ruleset covering TypeScript, imports, promises, unicorn and test plugins.
 
-- ⚓ Strict, opinionated `oxlint` config for modern `JavaScript` and `TypeScript` projects
+- ⚓ Strict, opinionated oxlint config for modern `JavaScript` and `TypeScript` projects
 - 🔍 Catches unused variables, imports, explicit `any`, floating promises and unsafe assignments
 - 📦 Covers `typescript`, `import`, `node`, `promise`, `unicorn`, `jest` and `vitest` plugins
 - 🚀 `node:` protocol enforced, barrel files flagged, accumulating spreads detected
@@ -150,7 +228,19 @@ After installation reference it in the project's `oxfmtrc.json` config file.
 
 #### Usage
 
-Install via:
+Install it by executing any of the following, depending on the preferred package manager:
+
+```bash
+bun add -D @igorskyflyer/oxlint-config
+```
+
+```bash
+pnpm add -D @igorskyflyer/oxlint-config
+```
+
+```bash
+yarn add -D @igorskyflyer/oxlint-config
+```
 
 ```bash
 npm i -D @igorskyflyer/oxlint-config
@@ -158,11 +248,26 @@ npm i -D @igorskyflyer/oxlint-config
 
 <br>
 
-After installation, reference it in the project's `.oxlintrc.json` config file.
+After installation, reference it in the project's **.oxlintrc.json**.
+
+`.oxlintrc.json`
 
 ```json
 {
   "extends": ["@igorskyflyer/oxlint-config"]
+}
+```
+
+Override any rule locally as needed:
+
+`.oxlintrc.json`
+
+```json
+{
+  "extends": ["@igorskyflyer/oxlint-config"],
+  "rules": {
+    "no-console": "error"
+  }
 }
 ```
 
@@ -174,16 +279,28 @@ After installation, reference it in the project's `.oxlintrc.json` config file.
 
 - ⚡ Zero-config setup - extend and go
 - 🔤 Single quotes for JS/TS, double quotes for JSX
-- 🚫 No semicolons, no trailing commas - cleaner diffs
+- 🚫 No semicolons, with trailing commas - cleaner diffs
 - 📏 2-space indentation, LF line endings, 80-char print width
 - 📦 Covers JS, TS, JSX, TSX, JSON, HTML, CSS, Vue and more
-- 🎯 All valid Prettier options explicitly set - no surprises
-- 🔲 Collapsed object wrapping for consistent single-line output
+- 🎯 All valid Prettier options explicitly set - _no surprises_
+- 🔲 Object wrap preserved - inline objects stay inline, expanded stay expanded
 - 🔒 Experimental options locked in - no unintended behavior on upgrades
 
 #### Usage
 
-Install via:
+Install it by executing any of the following, depending on the preferred package manager:
+
+```bash
+bun add -D @igorskyflyer/prettier-config
+```
+
+```bash
+pnpm add -D @igorskyflyer/prettier-config
+```
+
+```bash
+yarn add -D @igorskyflyer/prettier-config
+```
 
 ```bash
 npm i -D @igorskyflyer/prettier-config
@@ -191,7 +308,9 @@ npm i -D @igorskyflyer/prettier-config
 
 <br>
 
-After installation, reference it in the project's `package.json`.
+After installation, reference it in the project's **package.json**.
+
+`package.json`
 
 ```json
 {
@@ -201,7 +320,9 @@ After installation, reference it in the project's `package.json`.
 
 <br>
 
-If overrides are needed, use a `prettier.config.mjs` instead:
+If overrides are needed, use a **prettier.config.mjs** instead:
+
+`prettier.config.mjs`
 
 ```js
 import config from '@igorskyflyer/prettier-config'
@@ -221,7 +342,7 @@ export default {
 
 - 🔧 Strict `TypeScript` rules enabled by default
 - 📦 Separate configs for `Node` and `browser` environments
-- 🎯 `ES2024` target - modern and future-ready
+- 🎯 `ES2024` target - `modern` and future-ready
 - 🗂️ Predefined `src/`, `dist/` and `test/` structure
 - 🔍 Catches `unused` locals, parameters and implicit `any`
 - 🗺️ `Source maps` and `declaration` maps included
@@ -229,7 +350,19 @@ export default {
 
 #### Usage
 
-Install via:
+Install it by executing any of the following, depending on the preferred package manager:
+
+```bash
+bun add -d @igorskyflyer/tsconfig
+```
+
+```bash
+pnpm add -D @igorskyflyer/tsconfig
+```
+
+```bash
+yarn add -D @igorskyflyer/tsconfig
+```
 
 ```bash
 npm i -D @igorskyflyer/tsconfig
@@ -237,21 +370,71 @@ npm i -D @igorskyflyer/tsconfig
 
 <br>
 
-After installation, reference it in the project's `tsconfig.json` config file.
+After installation, reference it in the project's **tsconfig.json**.
 
-##### Node
+**Node (default)**
+`tsconfig.json`
 
 ```json
 {
-  "extends": "@igorskyflyer/tsconfig"
+  "extends": "@igorskyflyer/tsconfig",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/**/*", "test/**/*", "dist/**/*"],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
 }
 ```
 
-##### Browser
+<br>
+
+**Node (explicit)**
+`tsconfig.json`
 
 ```json
 {
-  "extends": "@igorskyflyer/tsconfig/browser"
+  "extends": "@igorskyflyer/tsconfig/node",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/**/*", "test/**/*", "dist/**/*"],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
+}
+```
+
+<br>
+
+**Browser**
+`tsconfig.json`
+
+```json
+{
+  "extends": "@igorskyflyer/tsconfig/browser",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/**/*", "test/**/*", "dist/**/*"],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
+}
+```
+
+<br>
+
+**Base only**
+`tsconfig.json`
+
+```json
+{
+  "extends": "@igorskyflyer/tsconfig/base",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules/**/*", "test/**/*", "dist/**/*"],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
 }
 ```
 
