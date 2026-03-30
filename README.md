@@ -26,8 +26,7 @@
 
 ## Packages
 
-Each package is independently installable.  
-Pick, extend and go.
+Each package is independently installable. Pick, extend and go.
 
 <div align="center">
 
