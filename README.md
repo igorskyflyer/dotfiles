@@ -62,8 +62,6 @@ Each package is independently installable. Pick, extend and go.
 - 🧹 Import organization powered by Biome's built-in `organizeImports`
 - 🔍 Supports adjacent overloads and explicit length checks
 
-<br>
-
 #### Usage
 
 Install via:
@@ -94,8 +92,6 @@ After installation reference it in the project's `biome.json` config file.
 - ✅ Clear success and error feedback for every outcome
 - 🛡️ Zero dependencies - pure `Node.js` built-ins only
 
-<br>
-
 #### Usage
 
 In a terminal, run:
@@ -118,8 +114,6 @@ and follow the instructions.
 - 🎯 Opinionated defaults - extend and go, zero bikeshedding
 - ⚡ Powered by `oxfmt` - `30x` faster than `Prettier`
 - 🛡️ Zero dependencies - `oxfmt` is a peer dependency only
-
-<br>
 
 #### Usage
 
@@ -154,8 +148,6 @@ After installation reference it in the project's `oxfmtrc.json` config file.
 - 🦄 Unicorn rules for modern idioms - `prefer-at`, `prefer-includes`, `numeric-separators` and more
 - 🛡️ Zero bikeshedding - one config, all projects, extend and go
 
-<br>
-
 #### Usage
 
 Install via:
@@ -188,8 +180,6 @@ After installation, reference it in the project's `.oxlintrc.json` config file.
 - 🎯 All valid Prettier options explicitly set - no surprises
 - 🔲 Collapsed object wrapping for consistent single-line output
 - 🔒 Experimental options locked in - no unintended behavior on upgrades
-
-<br>
 
 #### Usage
 
@@ -237,8 +227,6 @@ export default {
 - 🗺️ `Source maps` and `declaration` maps included
 - ⚡ `Zero-config` setup - extend and go
 
-<br>
-
 #### Usage
 
 Install via:
@@ -260,8 +248,6 @@ After installation, reference it in the project's `tsconfig.json` config file.
   "extends": "@igorskyflyer/tsconfig"
 }
 ```
-
-<br>
 
 ##### Browser
 
