@@ -239,8 +239,6 @@ npm i -D @igorskyflyer/tsconfig
 
 After installation, reference it in the project's `tsconfig.json` config file.
 
-<br>
-
 ##### Node
 
 ```json
