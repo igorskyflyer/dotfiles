@@ -26,8 +26,8 @@
 
 ## Packages
 
-A quick overview of all available configuration packages.  
-Pick what fits the project's stack.
+Each package is independently installable.  
+Pick, extend and go.
 
 <div align="center">
 
@@ -45,12 +45,6 @@ Pick what fits the project's stack.
 </div>
 
 </div>
-
-<br>
-<br>
-
-Each package is independently installable.  
-Pick, extend and go.
 
 <br>
 
