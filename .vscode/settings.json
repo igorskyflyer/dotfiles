@@ -1,0 +1,10 @@
+{
+  "markdown.validate.ignoredLinks": [
+    "#biome-config",
+    "#editorconfig",
+    "#oxfmt-config",
+    "#oxlint-config",
+    "#prettier-config",
+    "#tsconfig"
+  ]
+}
